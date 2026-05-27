@@ -31,7 +31,7 @@ function App() {
           </div>
 
           <div className="profileCard">
-            <img src="/steff.jpg" alt="Steff Dowle" />
+            <img src="/steff.jpg.png" alt="Steff Dowle" />
             <h3>Steff Dowle</h3>
             <p>Former Head of School • SEMH Experience • British Army Veteran</p>
           </div>
