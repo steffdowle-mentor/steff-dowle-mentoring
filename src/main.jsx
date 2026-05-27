@@ -192,11 +192,8 @@ function App() {
       <h3>Parent testimonial</h3>
     </div>
   </div>
-</section>
-  <form
-  action="https://formsubmit.co/info@youthmentoring.co.uk"
-  method="POST"
-  <section id="contact" className="section">
+
+ <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
 
   <h2>Get in touch.</h2>
