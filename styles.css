@@ -315,3 +315,50 @@ footer{
   font-size:18px;
   line-height:1.7;
 }
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid #d6d6d6;
+  background: white;
+  font-size: 16px;
+  font-family: inherit;
+  color: #111827;
+}
+
+.contactForm textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  border-color: #111827;
+  box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.08);
+}
+
+.contactForm button {
+  width: fit-content;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 14px;
+  background: #111827;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.contactForm button:hover {
+  opacity: 0.9;
+}
