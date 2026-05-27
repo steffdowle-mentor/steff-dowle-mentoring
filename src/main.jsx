@@ -147,7 +147,13 @@ function App() {
               <h3>Professional boundaries</h3>
               <p>Clear expectations, respectful communication and safe working practices.</p>
             </div>
+<div className="card">
+  <h3>Confidentiality</h3>
 
+  <p>
+    Building trust is central to effective mentoring. Conversations are treated with professionalism, sensitivity and respect, while always maintaining appropriate safeguarding responsibilities where safety or wellbeing may be at risk.
+  </p>
+</div>
             <div className="card">
               <h3>Young person centred</h3>
               <p>Support that listens to the voice of the young person and understands behaviour as communication.</p>
