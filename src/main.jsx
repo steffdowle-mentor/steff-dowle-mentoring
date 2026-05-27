@@ -49,7 +49,7 @@ function App() {
           <h2>Trusted guidance for parents and young people.</h2>
 
           <p>
-            I am Steff Dowle, a former Head of School with extensive experience supporting young
+            I am Steff Dowle, a former Head of School with 20 years of extensive experience supporting young
             people with behavioural, emotional and mental health needs. I understand that behaviour
             is often a form of communication, and that many young people need calm, consistent,
             trusted adult support to help them re-engage and move forward.
