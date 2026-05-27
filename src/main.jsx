@@ -173,7 +173,7 @@ function App() {
   <div className="grid">
     <div className="card">
       <p>
-        “Steff quickly built trust and gave our child calm, consistent support when school felt overwhelming.”
+        “I will always hold the utmost respect and gratitude for the incredible impact he has had on my daughter’s life and the outstanding outcomes that she achieved thanks to his incredible encouragement, understanding and support..”
       </p>
       <h3>Parent testimonial</h3>
     </div>
