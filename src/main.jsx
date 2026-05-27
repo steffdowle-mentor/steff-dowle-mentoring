@@ -192,7 +192,43 @@ function App() {
       <h3>Parent testimonial</h3>
     </div>
   </div>
+<section className="section light">
+  <p className="eyebrow dark">Areas Covered</p>
 
+  <h2>Supporting families across Kent and the South East.</h2>
+
+  <div className="grid">
+    <div className="card">
+      <h3>Kent</h3>
+      <p>
+        Supporting young people and families throughout Kent with mentoring,
+        SEMH support and behavioural guidance.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>Folkestone & Hythe</h3>
+      <p>
+        Local mentoring support for young people experiencing school, confidence,
+        behavioural or emotional difficulties.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>Ashford & Canterbury</h3>
+      <p>
+        One-to-one mentoring and parent support across Ashford, Canterbury and surrounding areas.
+      </p>
+    </div>
+
+    <div className="card">
+      <h3>Dover & South East Kent</h3>
+      <p>
+        Practical mentoring support for young people needing calm, consistent and experienced guidance.
+      </p>
+    </div>
+  </div>
+</section>
  <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
 
