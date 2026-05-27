@@ -211,7 +211,7 @@ function App() {
 
     <p>
       <strong>Email:</strong><br />
-      info@youthmentoring.co.uk
+      info@youthmentoringing.co.uk
     </p>
 
       Based in Kent and supporting families across the South East.
