@@ -231,16 +231,11 @@ function App() {
   </button>
 
 </form>
-      Based in Kent and supporting families across the South East.
-    </p>
+   
   </div>
 </section>    
   
-    <p>
-      Based in Kent and supporting families across the South East.
-    </p>
-  </div>
-</section>
+ 
       <footer>
         <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
       </footer>
