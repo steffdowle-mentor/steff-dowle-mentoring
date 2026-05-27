@@ -23,7 +23,7 @@ a{
 
 .heroImage{
   background:
-    linear-gradient(rgba(255,255,255,0.82), rgba(255,255,255,0.82)),
+    linear-gradient(rgba(245,246,248,0.94), rgba(245,246,248,0.94)),
     url('/waterfall.jpg');
 
   background-size:cover;
