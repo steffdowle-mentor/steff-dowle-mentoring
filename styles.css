@@ -49,6 +49,12 @@ a{
 
 .navLinks a{
   color: #0f172a;
+  .navLinks a:visited {
+    .navLinks a:hover {
+  opacity: 0.7;
+}
+  color: black;
+}
   font-weight:bold;
 }
 
