@@ -60,7 +60,7 @@ function App() {
         </section>
 
         <section id="support" className="section light">
-          <p className="eyebrow dark">How I can help</p>
+          <p className="eyebrow dark">How we can help</p>
 
           <h2>Practical mentoring support for real challenges.</h2>
 
@@ -98,7 +98,7 @@ function App() {
         </section>
 
         <section id="approach" className="section">
-          <p className="eyebrow dark">My approach</p>
+          <p className="eyebrow dark">Our approach</p>
 
           <h2>Firm, fair, compassionate and practical.</h2>
 
