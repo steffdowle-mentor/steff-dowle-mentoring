@@ -194,27 +194,44 @@ function App() {
   </div>
 </section>
        
-      </main>
-<section id="contact" className="section">
-  <p className="eyebrow dark">Contact</p>
+     <form
+  action="https://formsubmit.co/info@youthmentoring.co.uk"
+  method="POST"
+  className="contactForm"
+>
 
-  <h2>Get in touch.</h2>
+  <input
+    type="text"
+    name="name"
+    placeholder="Parent / Guardian Name"
+    required
+  />
 
-  <div className="contactBox">
-    <p>
-      If you would like to discuss support for your child or young person,
-      please get in touch for an informal conversation.
-    </p>
+  <input
+    type="email"
+    name="email"
+    placeholder="Email Address"
+    required
+  />
 
-    <p>
-      <strong>Phone:</strong><br />
-      07951321233
-    </p>
+  <input
+    type="tel"
+    name="phone"
+    placeholder="Phone Number"
+  />
 
-    <p>
-      <strong>Email:</strong><br />
-      info@youthmentoringing.co.uk
-    </p>
+  <textarea
+    name="message"
+    placeholder="Please tell me briefly how I may be able to help."
+    rows="6"
+    required
+  ></textarea>
+
+  <button type="submit" className="button primary">
+    Send Enquiry
+  </button>
+
+</form>
 
     <p>
       Based in Kent and supporting families across the South East.
