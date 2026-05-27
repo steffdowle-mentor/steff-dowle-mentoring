@@ -196,45 +196,33 @@ function App() {
   <form
   action="https://formsubmit.co/info@youthmentoring.co.uk"
   method="POST"
-  className="contactForm"
->
+  <section id="contact" className="section">
+  <p className="eyebrow dark">Contact</p>
 
-  <input
-    type="text"
-    name="name"
-    placeholder="Parent / Guardian Name"
-    required
-  />
+  <h2>Get in touch.</h2>
 
-  <input
-    type="email"
-    name="email"
-    placeholder="Email Address"
-    required
-  />
+  <div className="contactBox">
+    <form
+      action="https://formsubmit.co/info@youthmentoring.co.uk"
+      method="POST"
+      className="contactForm"
+    >
+      <input type="text" name="name" placeholder="Parent / Guardian Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="tel" name="phone" placeholder="Phone Number" />
+      <textarea
+        name="message"
+        placeholder="Please tell me briefly how I may be able to help."
+        rows="6"
+        required
+      ></textarea>
 
-  <input
-    type="tel"
-    name="phone"
-    placeholder="Phone Number"
-  />
-
-  <textarea
-    name="message"
-    placeholder="Please tell me briefly how I may be able to help."
-    rows="6"
-    required
-  ></textarea>
-
-  <button type="submit" className="button primary">
-    Send Enquiry
-  </button>
-
-</form>
-
-</div>
+      <button type="submit" className="button primary">
+        Send Enquiry
+      </button>
+    </form>
+  </div>
 </section>
-
 </main>
 
 <footer>
