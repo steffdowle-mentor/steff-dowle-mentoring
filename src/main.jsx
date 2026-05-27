@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
-import steffPhoto from './steff.png'
+import steffPhoto from '../steff.png'
 function App() {
   return (
     <div className="site">
