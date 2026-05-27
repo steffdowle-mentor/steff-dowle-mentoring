@@ -24,7 +24,7 @@ function App() {
             <h1>Calm, experienced support for young people who are struggling.</h1>
 
             <p className="intro">
-              One-to-one mentoring for vulnerable young people experiencing difficulties with school,
+              One-to-one mentoring for young people experiencing difficulties with school,
               behaviour, confidence, anxiety, motivation or emotional regulation.
             </p>
 
