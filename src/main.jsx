@@ -206,7 +206,32 @@ function App() {
           </div>
         </section>
       </main>
+<section id="contact" className="section">
+  <p className="eyebrow dark">Contact</p>
 
+  <h2>Get in touch.</h2>
+
+  <div className="contactBox">
+    <p>
+      If you would like to discuss support for your child or young person,
+      please get in touch for an informal conversation.
+    </p>
+
+    <p>
+      <strong>Phone:</strong><br />
+      07951321233
+    </p>
+
+    <p>
+      <strong>Email:</strong><br />
+      info@youthmentor.co.uk
+    </p>
+
+    <p>
+      Based in Kent and supporting families across the South East.
+    </p>
+  </div>
+</section>
       <footer>
         <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
       </footer>
