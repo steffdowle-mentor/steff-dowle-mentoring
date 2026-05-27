@@ -234,8 +234,8 @@ function App() {
    
   </div>
 </section>    
-  </div>
- 
+
+ </main>
       <footer>
         <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
       </footer>
