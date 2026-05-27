@@ -220,6 +220,7 @@ function App() {
     </form>
   </div>
 </section>
+
 </main>
 
 <footer>
@@ -228,7 +229,7 @@ function App() {
 
 </div>
   )
-
+}
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
