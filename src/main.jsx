@@ -227,9 +227,11 @@ function App() {
   <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
 </footer>
 
+</main>
+
 </div>
   )
-
+}
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
