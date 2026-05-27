@@ -30,8 +30,8 @@ function App() {
             </div>
           </div>
 
-         <div className="profileCard">
-
+        <div className="profileCard">
+  <img src="./steff.png" alt="Steff Dowle" />
   <h3>Steff Dowle</h3>
   <p>
     Former Head of School • SEMH Experience • British Army Veteran
