@@ -187,24 +187,7 @@ function App() {
     </div>
   </div>
 </section>
-        <section id="contact" className="contact">
-          <div>
-            <p className="eyebrow">Contact</p>
-
-            <h2>Speak to Steff about mentoring support.</h2>
-
-            <p>
-              If your child is struggling and you would like to discuss private mentoring support,
-              please contact me directly for an initial conversation.
-            </p>
-          </div>
-
-          <div className="contactBox">
-            <p><strong>Phone:</strong> <a href="tel:07951321233">07951 321233</a></p>
-            <p><strong>Email:</strong> <a href="mailto:info@youthmentoring.co.uk">info@youthmentoring.co.uk</a></p>
-            <p><strong>Location:</strong> Kent and South East England</p>
-          </div>
-        </section>
+       
       </main>
 <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
