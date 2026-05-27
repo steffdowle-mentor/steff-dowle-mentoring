@@ -207,7 +207,7 @@ function App() {
 
     <p>
       <strong>Email:</strong><br />
-      info@youthmentoring.co.uk
+      info@youthmentoringing.co.uk
     </p>
 
     <p>
