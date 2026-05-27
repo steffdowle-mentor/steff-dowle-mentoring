@@ -159,7 +159,34 @@ function App() {
             </div>
           </div>
         </section>
+<section className="section light">
+  <p className="eyebrow dark">Testimonials</p>
 
+  <h2>What parents and young people say.</h2>
+
+  <div className="grid">
+    <div className="card">
+      <p>
+        “Steff quickly built trust and gave our child calm, consistent support when school felt overwhelming.”
+      </p>
+      <h3>Parent testimonial</h3>
+    </div>
+
+    <div className="card">
+      <p>
+        “The mentoring helped improve confidence, routine and communication at home and school.”
+      </p>
+      <h3>Parent testimonial</h3>
+    </div>
+
+    <div className="card">
+      <p>
+        “Steff’s approach was firm, fair and reassuring. He understood the behaviour without judging it.”
+      </p>
+      <h3>Parent testimonial</h3>
+    </div>
+  </div>
+</section>
         <section id="contact" className="contact">
           <div>
             <p className="eyebrow">Contact</p>
