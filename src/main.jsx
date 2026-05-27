@@ -30,7 +30,7 @@ function App() {
 
             <div className="heroButtons">
               <a className="button primary" href="tel:07951321233">Call Steff</a>
-              <a className="button secondaryDark" href="mailto:info@youthmentor.co.uk">Email Enquiry</a>
+              <a className="button secondaryDark" href="mailto:info@youthmentoring.co.uk">Email Enquiry</a>
             </div>
           </div>
           <div className="profileCard">
