@@ -231,15 +231,17 @@ function App() {
   </button>
 
 </form>
-   
-  </div>
-</section>    
 
- </main>
-      <footer>
-        <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
-      </footer>
-    </div>
+</div>
+</section>
+
+</main>
+
+<footer>
+  <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
+</footer>
+
+</div>
   )
 }
 
