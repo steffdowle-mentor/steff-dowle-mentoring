@@ -197,37 +197,19 @@ function App() {
 
   <h2>Supporting families across Kent and the South East.</h2>
 
-  <div className="grid">
-    <div className="card">
-      <h3>Kent</h3>
-      <p>
-        Supporting young people and families throughout Kent with mentoring,
-        SEMH support and behavioural guidance.
-      </p>
-    </div>
+<div className="card">
+  <h3>Areas Served</h3>
 
-    <div className="card">
-      <h3>Folkestone & Hythe</h3>
-      <p>
-        Local mentoring support for young people experiencing school, confidence,
-        behavioural or emotional difficulties.
-      </p>
-    </div>
+  <p>
+    Supporting young people and families across Folkestone, Hythe, Ashford,
+    Canterbury, Dover, Deal and the wider Kent and South East region.
+  </p>
 
-    <div className="card">
-      <h3>Ashford & Canterbury</h3>
-      <p>
-        One-to-one mentoring and parent support across Ashford, Canterbury and surrounding areas.
-      </p>
-    </div>
-
-    <div className="card">
-      <h3>Dover & South East Kent</h3>
-      <p>
-        Practical mentoring support for young people needing calm, consistent and experienced guidance.
-      </p>
-    </div>
-  </div>
+  <p>
+    One-to-one mentoring, SEMH support, behavioural guidance, confidence building
+    and parent support delivered with calm, consistent and experienced leadership.
+  </p>
+</div>
 </section>
  <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
