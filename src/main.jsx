@@ -201,7 +201,7 @@ function App() {
   <h3>Areas Served</h3>
 
   <p>
-    Supporting young people and families across Folkestone, Hythe, Ashford,
+    Folkestone, Hythe, Ashford,
     Canterbury, Dover, Deal and the wider Kent and South East region.
   </p>
 
