@@ -220,14 +220,13 @@ function App() {
     </form>
   </div>
 </section>
-
+</section>
 </main>
 
 <footer>
   <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
 </footer>
 
-</main>
 
 </div>
   )
