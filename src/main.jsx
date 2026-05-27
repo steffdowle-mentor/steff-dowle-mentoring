@@ -30,11 +30,13 @@ function App() {
             </div>
           </div>
 
-          <div className="profileCard">
-            <img src="/steff.jpeg" alt="Steff Dowle" />
-            <h3>Steff Dowle</h3>
-            <p>Former Head of School • SEMH Experience • British Army Veteran</p>
-          </div>
+         <div className="profileCard">
+  <img src="/steff.png" alt="Steff Dowle" />
+  <h3>Steff Dowle</h3>
+  <p>
+    Former Head of School • SEMH Experience • British Army Veteran
+  </p>
+</div>
         </section>
       </header>
 
