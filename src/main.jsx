@@ -174,7 +174,7 @@ function App() {
 
           <div className="contactBox">
             <p><strong>Phone:</strong> <a href="tel:07951321233">07951 321233</a></p>
-            <p><strong>Email:</strong> <a href="mailto:info@youthmentor.co.uk">info@youthmentor.co.uk</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@youthmentoring.co.uk">info@youthmentoring.co.uk</a></p>
             <p><strong>Location:</strong> Kent and South East England</p>
           </div>
         </section>
