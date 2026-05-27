@@ -1,4 +1,3 @@
-import steffPhoto from './steff.png'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
@@ -34,9 +33,7 @@ function App() {
               <a className="button secondaryDark" href="mailto:info@youthmentor.co.uk">Email Enquiry</a>
             </div>
           </div>
-
           <div className="profileCard">
-<img src={steffPhoto} alt="Steff Dowle" />
             <h3>Steff Dowle</h3>
             <p>Former Head of School • SEMH Experience • British Army Veteran</p>
           </div>
