@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
-<img src="/steff.png" alt="Steff Dowle" />
+import steffPhoto from './steff.png'
 function App() {
   return (
     <div className="site">
@@ -36,7 +36,7 @@ function App() {
           </div>
 
           <div className="profileCard">
-            <img src={steffPhoto} alt="Steff Dowle" />
+           <img src={steffPhoto} alt="Steff Dowle" />
             <h3>Steff Dowle</h3>
             <p>Former Head of School • SEMH Experience • British Army Veteran</p>
           </div>
