@@ -1,7 +1,7 @@
+import steffPhoto from './steff.png'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
-<img src="/src/steff.png" alt="Steff Dowle" />
 function App() {
   return (
     <div className="site">
