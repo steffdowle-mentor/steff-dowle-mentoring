@@ -6,7 +6,7 @@ function App() {
     <div className="site">
       <header className="hero heroImage">
         <nav className="nav">
-          <div className="brand">Steff Dowle Mentoring</div>
+          <div className="brand">Pathway Youth Mentoring</div>
 
           <div className="navLinks">
             <a href="#about">About</a>
@@ -37,7 +37,7 @@ function App() {
   <img src="/steff.png" alt="Steff Dowle" />
   <h3>Steff Dowle</h3>
            
-            <p>Former Head of School • SEMH Experience • British Army Veteran</p>
+            <p>Led by Former Head of School • SEMH Experience • British Army Veteran</p>
           </div>
         </section>
       </header>
@@ -49,9 +49,7 @@ function App() {
           <h2>Trusted guidance for parents and young people.</h2>
 
           <p>
-            I am Steff Dowle, a former Head of School with over 20 years of experience supporting young people with behavioural, emotional and mental health needs.
-
-I understand that behaviour is often a form of communication, and that many young people benefit from calm, consistent and trusted adult support to help them rebuild confidence, re-engage and move forward positively.
+            Pathway Youth Mentoring is led by Steff Dowle, a former Head of School with over 20 years of experience supporting young people with behavioural, emotional and mental health needs.
           </p>
 
           <p>
@@ -105,7 +103,7 @@ I understand that behaviour is often a form of communication, and that many youn
           <h2>Firm, fair, compassionate and practical.</h2>
 
           <p>
-            My mentoring is relationship-led but purposeful. I aim to build trust first, then help
+            Our mentoring is relationship-led but purposeful. We aim to build trust first, then help
             the young person understand their choices, recognise their strengths and develop better
             ways to manage challenge.
           </p>
