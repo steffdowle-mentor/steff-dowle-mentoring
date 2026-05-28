@@ -1,3 +1,4 @@
+import logo from './logo.png.png'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
@@ -9,12 +10,7 @@ function App() {
 
   <div className="logoWrap">
 
-    <img
-      src={logo}
-      alt="Pathway Youth Mentoring"
-      className="siteLogo"
-    />
-
+   <img src={logo} alt="Pathway Youth Mentoring" className="siteLogo" />
     <div>
       <div className="brand">
         Pathway Youth Mentoring
@@ -36,7 +32,7 @@ function App() {
   </div>
 
 </nav>
-import logo from '../assets/logo.png.png'
+
         <section className="heroContent">
           <div>
             <p className="eyebrow dark">Private mentoring for young people</p>
