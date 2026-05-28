@@ -5,17 +5,37 @@ function App() {
   return (
     <div className="site">
       <header className="hero heroImage">
-        <nav className="nav">
-          <div className="brand">Pathway Youth Mentoring</div>
+       <nav className="nav">
 
-          <div className="navLinks">
-            <a href="#about">About</a>
-            <a href="#support">Support</a>
-            <a href="#approach">Approach</a>
-            <a href="#safeguarding">Safeguarding</a>
-            <a href="#contact">Contact</a>
-          </div>
-        </nav>
+  <div className="logoWrap">
+
+    <img
+      src={logo}
+      alt="Pathway Youth Mentoring"
+      className="siteLogo"
+    />
+
+    <div>
+      <div className="brand">
+        Pathway Youth Mentoring
+      </div>
+
+      <p className="tagline">
+        Practical mentoring. Positive futures.
+      </p>
+    </div>
+
+  </div>
+
+  <div className="navLinks">
+    <a href="#about">About</a>
+    <a href="#support">Support</a>
+    <a href="#approach">Approach</a>
+    <a href="#safeguarding">Safeguarding</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+</nav>
 
         <section className="heroContent">
           <div>
