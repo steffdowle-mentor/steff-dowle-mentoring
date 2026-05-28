@@ -96,7 +96,16 @@ function App() {
             </div>
           </div>
         </section>
+<div className="card">
+  <h3>Support for Young People who are NEET</h3>
 
+  <p>
+    We understand the challenges faced by young people who are NEET
+    (not in education, employment or training). Mentoring can help rebuild
+    confidence, structure, motivation and positive routines, while supporting
+    young people to re-engage with education, employment opportunities and future goals.
+  </p>
+</div>
         <section id="approach" className="section">
           <p className="eyebrow dark">Our approach</p>
 
