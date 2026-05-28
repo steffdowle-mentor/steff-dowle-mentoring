@@ -97,6 +97,7 @@ function App() {
           </div>
         </section>
 <div className="card">
+  <div className="card">
   <h3>Support for Young People who are NEET</h3>
 
   <p>
@@ -105,6 +106,8 @@ function App() {
     confidence, structure, motivation and positive routines, while supporting
     young people to re-engage with education, employment opportunities and future goals.
   </p>
+</div>
+  
 </div>
         <section id="approach" className="section">
           <p className="eyebrow dark">Our approach</p>
