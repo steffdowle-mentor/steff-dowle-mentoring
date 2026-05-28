@@ -192,7 +192,7 @@ function App() {
 <section className="section light">
   <p className="eyebrow dark">Areas Covered</p>
 
-  <h2>Supporting families across Kent and the South East.</h2>
+  <h2>Supporting families and young people across Kent and the South East.</h2>
 
 <div className="card">
   <h3>Areas Served</h3>
