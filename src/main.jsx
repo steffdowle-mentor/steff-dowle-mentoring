@@ -94,7 +94,7 @@ function App() {
 
   <p>
     We understand the challenges faced by young people who are NEET
-    (not in education, employment or training). Mentoring can help rebuild
+    (Not in Education, Employment or Training). Mentoring can help rebuild
     confidence, structure, motivation and positive routines, while supporting
     young people to re-engage with education, employment opportunities and future goals.
   </p>
