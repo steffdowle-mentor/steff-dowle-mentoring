@@ -436,3 +436,8 @@ footer{
     grid-template-columns:1fr;
   }
 }
+.siteLogo{
+  width:45px;
+  height:auto;
+  object-fit:contain;
+}
