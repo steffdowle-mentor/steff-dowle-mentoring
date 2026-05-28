@@ -64,7 +64,7 @@ function App() {
 
           <h2>Practical mentoring support for real challenges.</h2>
 
-          <div className="grid">
+          <div className="supportGrid">
             <div className="card">
               <h3>School difficulties</h3>
               <p>Support with attendance, engagement, behaviour, routine and rebuilding confidence in education.</p>
