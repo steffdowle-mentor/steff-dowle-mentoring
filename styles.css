@@ -396,23 +396,27 @@ footer{
 }
 
 .supportGrid .card p{
-  line-height:1.6;
+  line-height:1.7;
 }
 
-/* Put the last 3 boxes neatly underneath */
+/* CENTER THE BOTTOM 3 BOXES */
 .supportGrid .card:nth-child(5){
-  grid-column:2;
+  grid-column:1 / span 1;
+  margin-left:50%;
 }
 
 .supportGrid .card:nth-child(6){
-  grid-column:3;
+  grid-column:2 / span 1;
+  margin-left:50%;
 }
 
 .supportGrid .card:nth-child(7){
-  grid-column:4;
+  grid-column:3 / span 1;
+  margin-left:50%;
 }
 
 @media(max-width:1100px){
+
   .supportGrid{
     grid-template-columns:repeat(2, 1fr);
   }
@@ -420,11 +424,13 @@ footer{
   .supportGrid .card:nth-child(5),
   .supportGrid .card:nth-child(6),
   .supportGrid .card:nth-child(7){
+    margin-left:0;
     grid-column:auto;
   }
 }
 
 @media(max-width:700px){
+
   .supportGrid{
     grid-template-columns:1fr;
   }
