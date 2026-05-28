@@ -89,15 +89,7 @@ function App() {
               <h3>Behaviour support</h3>
               <p>Helping young people understand choices, consequences, triggers and better ways to respond.</p>
             </div>
-
-            <div className="card">
-              <h3>Positive routine</h3>
-              <p>Structured support to improve daily routine, motivation, confidence and personal organisation.</p>
-            </div>
-          </div>
-        </section>
 <div className="card">
-  <div className="card">
   <h3>Support for Young People who are NEET</h3>
 
   <p>
@@ -107,6 +99,14 @@ function App() {
     young people to re-engage with education, employment opportunities and future goals.
   </p>
 </div>
+            <div className="card">
+              <h3>Positive routine</h3>
+              <p>Structured support to improve daily routine, motivation, confidence and personal organisation.</p>
+            </div>
+          </div>
+        </section>
+<div className="card">
+  
   
 </div>
         <section id="approach" className="section">
