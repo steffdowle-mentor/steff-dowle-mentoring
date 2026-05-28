@@ -17,7 +17,7 @@ function App() {
       </div>
 
       <p className="tagline">
-        Practical mentoring. Positive futures.
+        Support. Empower. Inspire. Futures.
       </p>
     </div>
 
