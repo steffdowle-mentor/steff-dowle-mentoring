@@ -7,7 +7,6 @@ function App() {
     <div className="site">
       <header className="hero heroImage">
        <nav className="nav">
-
   <div className="logoWrap">
 
    <img src={logo} alt="Pathway Youth Mentoring" className="siteLogo" />
