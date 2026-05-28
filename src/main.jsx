@@ -93,10 +93,8 @@ function App() {
   <h3>Support for Young People who are NEET</h3>
 
   <p>
-    We understand the challenges faced by young people who are NEET
-    (Not in Education, Employment or Training). Mentoring can help rebuild
-    confidence, structure, motivation and positive routines, while supporting
-    young people to re-engage with education, employment opportunities and future goals.
+    Helping young people who are NEET (Not in Education, Employment or Training)
+to rebuild confidence, motivation, routine and positive future direction.
   </p>
 </div>
             <div className="card">
