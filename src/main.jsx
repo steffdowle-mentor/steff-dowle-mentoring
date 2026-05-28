@@ -208,6 +208,30 @@ function App() {
   </p>
 </div>
 </section>
+  <section className="section light">
+  <p className="eyebrow dark">Support Options</p>
+
+  <h2>Flexible support tailored to individual needs.</h2>
+
+  <div className="card">
+    <p>
+      Support is tailored to the individual needs of each young person and family.
+    </p>
+
+    <p>
+      Sessions, mentoring packages and ongoing support options are discussed
+      following an initial conversation to ensure the right level of support is provided.
+    </p>
+
+    <p>
+      Please get in touch to discuss availability, support options and pricing.
+    </p>
+
+    <p>
+      <strong>Free initial consultation call available.</strong>
+    </p>
+  </div>
+</section>
  <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
 
