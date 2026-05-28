@@ -36,7 +36,7 @@ function App() {
   </div>
 
 </nav>
-
+import logo from '../assets/logo.png'
         <section className="heroContent">
           <div>
             <p className="eyebrow dark">Private mentoring for young people</p>
