@@ -73,7 +73,34 @@ function App() {
             compassion to my mentoring work.
           </p>
         </section>
+<section className="section light">
+  <p className="eyebrow dark">Testimonials</p>
 
+  <h2>What parents and young people say.</h2>
+
+  <div className="grid">
+    <div className="card">
+      <p>
+        “I will always hold the utmost respect and gratitude for the incredible impact he has had on my daughter’s life and the outstanding outcomes that she achieved thanks to his incredible encouragement, understanding and support..”
+      </p>
+      <h3>Parent testimonial</h3>
+    </div>
+
+    <div className="card">
+      <p>
+        “The mentoring helped improve confidence, routine and communication at home and school.”
+      </p>
+      <h3>Parent testimonial</h3>
+    </div>
+
+    <div className="card">
+      <p>
+        “Steff’s approach was firm, fair and reassuring. He understood the behaviour without judging it.”
+      </p>
+      <h3>Parent testimonial</h3>
+    </div>
+  </div>
+<section className="section light">
         <section id="support" className="section light">
           <p className="eyebrow dark">How we can help</p>
 
@@ -187,34 +214,7 @@ to rebuild confidence, motivation, routine and positive future direction.
             </div>
           </div>
         </section>
-<section className="section light">
-  <p className="eyebrow dark">Testimonials</p>
 
-  <h2>What parents and young people say.</h2>
-
-  <div className="grid">
-    <div className="card">
-      <p>
-        “I will always hold the utmost respect and gratitude for the incredible impact he has had on my daughter’s life and the outstanding outcomes that she achieved thanks to his incredible encouragement, understanding and support..”
-      </p>
-      <h3>Parent testimonial</h3>
-    </div>
-
-    <div className="card">
-      <p>
-        “The mentoring helped improve confidence, routine and communication at home and school.”
-      </p>
-      <h3>Parent testimonial</h3>
-    </div>
-
-    <div className="card">
-      <p>
-        “Steff’s approach was firm, fair and reassuring. He understood the behaviour without judging it.”
-      </p>
-      <h3>Parent testimonial</h3>
-    </div>
-  </div>
-<section className="section light">
   <p className="eyebrow dark">Areas Covered</p>
 
   <h2>Supporting families and young people across Kent and the South East.</h2>
