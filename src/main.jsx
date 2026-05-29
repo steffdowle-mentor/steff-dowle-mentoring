@@ -86,7 +86,7 @@ function App() {
             </div>
 
             <div className="card">
-              <h3>SEMH support</h3>
+              <h3>Social Emotional & Mental Health support</h3>
               <p>Calm support for emotional regulation, anxiety, low mood, frustration and difficult presentation.</p>
             </div>
 
