@@ -339,15 +339,23 @@ footer{
 .contactForm input,
 .contactForm textarea {
   width: 100%;
-  padding: 16px;
-  border-radius: 14px;
-  border: 1px solid #d6d6d6;
-  background: white;
-  font-size: 16px;
-  font-family: inherit;
+  padding: 14px;
+  border: 2px solid #6b7280;
   color: #111827;
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
 }
-
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #4b5563;
+  opacity: 1;
+}
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  border-color: #0f172a;
+}
 .contactForm textarea {
   min-height: 160px;
   resize: vertical;
