@@ -485,3 +485,26 @@ footer{
   }
 
 }
+.mentor-section {
+  background: #f4f7f6;
+  padding: 60px 20px;
+}
+
+.mentor-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mentor-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1f3d36;
+}
+
+.mentor-container p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333333;
+  margin-bottom: 16px;
+}
