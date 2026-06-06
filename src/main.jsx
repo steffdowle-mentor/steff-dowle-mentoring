@@ -73,7 +73,20 @@ function App() {
             compassion to my mentoring work.
           </p>
         </section>
-<section className="section light">
+<section class="mentor-section">
+  <div class="mentor-container">
+    <h2>What Does a Mentor Do?</h2>
+    <p>
+      A mentor provides guidance, encouragement, and practical support to help young people overcome challenges and reach their potential.
+      Through regular one-to-one sessions, a mentor can help build confidence, improve motivation, develop positive routines, manage behaviour,
+      strengthen communication skills, and support emotional wellbeing.
+    </p>
+    <p>
+      Mentoring offers a trusted relationship where young people feel listened to, understood, and empowered to make positive choices for their future.
+    </p>
+  </div>
+</section>
+        <section className="section light">
   <p className="eyebrow dark">Testimonials</p>
 
   <h2>What parents and young people say.</h2>
