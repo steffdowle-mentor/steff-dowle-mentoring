@@ -231,7 +231,7 @@ to rebuild confidence, motivation, routine and positive future direction.
           </div>
         </section>
 
-  <p className="eyebrow dark">Areas Covered</p>
+  <p className="eyebrow dark">Areas Served</p>
 
   <h2>Supporting families and young people across Kent and the South East.</h2>
 
