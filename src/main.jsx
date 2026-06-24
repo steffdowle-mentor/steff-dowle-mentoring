@@ -285,7 +285,13 @@ to rebuild confidence, motivation, routine and positive future direction.
     </p>
   </div>
 </section>
- 
+  <section id="blog" className="section light">
+  <p className="eyebrow dark">Blog</p>
+
+  <h2>Latest articles.</h2>
+
+  <div id="soro-blog"></div>
+</section>
  <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
 
@@ -314,13 +320,7 @@ to rebuild confidence, motivation, routine and positive future direction.
   </div>
 
 </section>
- <section id="blog" className="section light">
-  <p className="eyebrow dark">Blog</p>
 
-  <h2>Latest articles.</h2>
-
-  <div id="soro-blog"></div>
-</section>
 </main>
 
 <footer>
