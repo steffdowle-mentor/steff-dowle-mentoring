@@ -299,9 +299,6 @@ to rebuild confidence, motivation, routine and positive future direction.
     </form>
   </div>
 </section>
-
-   <div className="sectionHeader">
-  
  
 </main>
 
