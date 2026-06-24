@@ -300,7 +300,7 @@ to rebuild confidence, motivation, routine and positive future direction.
   </div>
 
 </section>
-
+</section>
 </main>
 
 <footer>
