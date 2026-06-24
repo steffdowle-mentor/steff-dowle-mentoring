@@ -1,8 +1,20 @@
 import logo from './logo.png.png'
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
 function App() {
+
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src = 'https://app.trysoro.com/api/embed/b553c465-9609-4d47-87c9-ecd1c0561729'
+    script.defer = true
+    document.body.appendChild(script)
+
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
+
   return (
     <div className="site">
       <header className="hero heroImage">
