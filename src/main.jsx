@@ -299,7 +299,7 @@ to rebuild confidence, motivation, routine and positive future direction.
     </form>
   </div>
 </section>
-</section>
+
   <section id="blog" className="section">
   <div className="sectionHeader">
     <p className="eyebrow">Latest articles</p>
