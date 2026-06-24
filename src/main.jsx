@@ -302,6 +302,15 @@ to rebuild confidence, motivation, routine and positive future direction.
   </div>
 
 </section>
+   <section id="blog" className="section light">
+  <p className="eyebrow dark">Blog</p>
+
+  <h2>Latest articles.</h2>
+
+  <div className="card">
+    <p>Blog articles will appear here soon.</p>
+  </div>
+</section>     
 </main>
 
 <footer>
