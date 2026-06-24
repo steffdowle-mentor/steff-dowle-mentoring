@@ -114,6 +114,7 @@ function App() {
       <h3>Parent testimonial</h3>
     </div>
   </div>
+    </section>      
 <section className="section light">
         <section id="support" className="section light">
           <p className="eyebrow dark">How we can help</p>
