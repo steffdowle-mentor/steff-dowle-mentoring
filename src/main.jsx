@@ -85,9 +85,6 @@ function App() {
       Mentoring offers a trusted relationship where young people feel listened to, understood, and empowered to make positive choices for their future.
     </p>
   </div>
-</section>
-        <div id="soro-blog"></div>
-<script src="https://app.trysoro.com/api/embed/b553c465-9609-4d47-87c9-ecd1c0561729" defer></script>
 
         <section className="section light">
   <p className="eyebrow dark">Testimonials</p>
