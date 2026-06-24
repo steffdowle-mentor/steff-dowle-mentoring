@@ -27,9 +27,9 @@ function App() {
     <a href="#support">Support</a>
     <a href="#approach">Approach</a>
     <a href="#safeguarding">Safeguarding</a>
-    <a href="#contact">Contact</a>
     <a href="#blog">Blog</a>
-   
+    <a href="#contact">Contact</a>
+  
   </div>
 
 </nav>
@@ -314,6 +314,23 @@ to rebuild confidence, motivation, routine and positive future direction.
     {/* Paste your SORO blog code below */}
 
     {/* Paste your SORO blog code above */}
+  </div>
+</section>
+  <section id="blog" className="section">
+  <div className="sectionHeader">
+    <p className="eyebrow">Latest articles</p>
+    <h2>Blog</h2>
+    <p>
+      Guidance, support and practical advice for young people, parents and carers.
+    </p>
+  </div>
+
+  <div className="card">
+    <p>
+      Blog articles will appear here.
+    </p>
+
+    {/* Paste SORO code here later */}
   </div>
 </section>
 </main>
