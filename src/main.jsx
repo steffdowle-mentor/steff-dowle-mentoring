@@ -115,7 +115,7 @@ function App() {
     </div>
   </div>
     </section>      
-<section className="section light">
+
         <section id="support" className="section light">
           <p className="eyebrow dark">How we can help</p>
 
