@@ -307,7 +307,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 </footer>
 
 
-</div>
+</section>
   )
 }
 ReactDOM.createRoot(document.getElementById('root')).render(
