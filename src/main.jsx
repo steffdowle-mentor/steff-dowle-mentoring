@@ -28,6 +28,7 @@ function App() {
     <a href="#approach">Approach</a>
     <a href="#safeguarding">Safeguarding</a>
     <a href="#contact">Contact</a>
+    <a href="/blog.html">Blog</a>
   </div>
 
 </nav>
