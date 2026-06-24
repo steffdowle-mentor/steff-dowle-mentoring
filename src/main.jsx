@@ -306,7 +306,7 @@ to rebuild confidence, motivation, routine and positive future direction.
   <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
 </footer>
 
-</div>
+</section>
 )
 }
 
