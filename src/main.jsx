@@ -27,8 +27,7 @@ function App() {
     <a href="#support">Support</a>
     <a href="#approach">Approach</a>
     <a href="#safeguarding">Safeguarding</a>
-    <a href="#blog">Blog</a>
-    <a href="#contact">Contact</a>
+        <a href="#contact">Contact</a>
   
   </div>
 
