@@ -300,21 +300,8 @@ to rebuild confidence, motivation, routine and positive future direction.
   </div>
 </section>
 
-  <section id="blog" className="section">
-  <div className="sectionHeader">
-    <p className="eyebrow">Latest articles</p>
-    <h2>Blog</h2>
-    <p>
-      Guidance, support and practical advice for young people, parents and carers.
-    </p>
-  </div>
-
-  <div className="blogContainer">
-    {/* Paste your SORO blog code below */}
-
-    {/* Paste your SORO blog code above */}
-  </div>
-</section>
+   <div className="sectionHeader">
+  
  
 </main>
 
