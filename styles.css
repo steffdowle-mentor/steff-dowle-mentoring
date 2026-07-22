@@ -721,3 +721,31 @@ footer{
     max-height: 190px;
   }
 }
+/* Force Soro articles into two columns */
+
+#soro-blog > div {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+  width: 100% !important;
+}
+
+/* Make each direct article/card fit its grid column */
+
+#soro-blog > div > article,
+#soro-blog > div > div,
+#soro-blog > div > a {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile: return to one column */
+
+@media (max-width: 768px) {
+  #soro-blog > div {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+  }
+}
