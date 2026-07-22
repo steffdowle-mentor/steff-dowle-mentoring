@@ -796,3 +796,38 @@ footer{
 }
 
 /* Mobile */
+/* Make opened Soro articles use the full available width */
+
+#soro-blog article,
+#soro-blog main,
+#soro-blog .article,
+#soro-blog .article-content,
+#soro-blog .post-content,
+#soro-blog .content,
+#soro-blog [style*="max-width"] {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+#soro-blog article,
+#soro-blog .article-content,
+#soro-blog .post-content {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+#soro-blog p,
+#soro-blog h1,
+#soro-blog h2,
+#soro-blog h3 {
+  max-width: none !important;
+}
+
+@media (max-width: 768px) {
+  #soro-blog article,
+  #soro-blog .article-content,
+  #soro-blog .post-content {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+}
