@@ -512,48 +512,19 @@ footer{
   color: #333333;
   margin-bottom: 16px;
 }
+
 /* ---------- BLOG ---------- */
 
-.blogHeader{
-    text-align:center;
-    max-width:800px;
-    margin:0 auto 50px;
-}
-
-.blogHeader h2{
-    font-size:42px;
-    margin-bottom:20px;
-    color:#123b46;
-}
-
-.blogIntro{
-    font-size:20px;
-    line-height:1.7;
-    color:#666;
-}
-
-.blogWrapper{
-    background:white;
-    border-radius:20px;
-    padding:35px;
-    box-shadow:0 10px 35px rgba(0,0,0,.08);
-}
-
-#soro-blog{
-    width:100%;
-}
-/* ==============================
-   PROFESSIONAL BLOG LAYOUT
-============================== */
-
 #blog {
-  padding: 65px 8%;
+  width: 100%;
+  padding: 65px 6%;
   background: #eef3f4;
 }
 
 .blogHeader {
-  max-width: 720px;
-  margin: 0 auto 32px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 36px;
   text-align: center;
 }
 
@@ -564,14 +535,16 @@ footer{
 }
 
 .blogHeader h2 {
-  margin-bottom: 12px;
+  width: 100%;
+  margin: 0 0 14px;
   color: #123b46;
   font-size: 38px;
   line-height: 1.2;
 }
 
 .blogIntro {
-  max-width: 650px;
+  width: 100%;
+  max-width: 850px;
   margin: 0 auto;
   color: #52636a;
   font-size: 17px;
@@ -580,120 +553,74 @@ footer{
 
 .blogWrapper {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
   background: transparent;
-  border: none;
+  border: 0;
   border-radius: 0;
   box-shadow: none;
 }
 
-#soro-blog {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+#soro-blog,
+#soro-blog .soro-blog,
+#soro-blog .soro-blog-content {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
 }
 
-/* Article cards */
-
-#soro-blog article,
-#soro-blog .post,
-#soro-blog .blog-post,
-#soro-blog .article-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+#soro-blog .soro-blog-article {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 30px auto !important;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
   background: #ffffff;
   border: 1px solid #dce5e7;
   border-radius: 16px;
   box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
 }
 
-#soro-blog article:hover,
-#soro-blog .post:hover,
-#soro-blog .blog-post:hover,
-#soro-blog .article-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.13);
-}
-
-/* Article images */
-
-#soro-blog article img,
-#soro-blog .post img,
-#soro-blog .blog-post img,
-#soro-blog .article-card img {
+#soro-blog .soro-blog-article-image {
   display: block;
-  width: 100%;
-  height: 180px;
-  max-height: 180px;
+  width: 100% !important;
+  height: auto !important;
+  max-height: 460px;
   object-fit: cover;
-  border-radius: 0;
 }
 
-/* Article headings */
+#soro-blog .soro-blog-article-content {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 36px 48px !important;
+}
 
-#soro-blog article h1,
-#soro-blog article h2,
-#soro-blog article h3,
-#soro-blog .post h2,
-#soro-blog .post h3,
-#soro-blog .blog-post h2,
-#soro-blog .blog-post h3 {
-  margin: 18px 18px 10px;
+#soro-blog .soro-blog-article-content h1,
+#soro-blog .soro-blog-article-content h2,
+#soro-blog .soro-blog-article-content h3,
+#soro-blog .soro-blog-article-content p {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+#soro-blog .soro-blog-article-content h2 {
+  margin: 26px 0 12px !important;
   color: #123b46;
-  font-size: 21px;
-  line-height: 1.3;
+  font-size: 30px !important;
+  line-height: 1.25 !important;
 }
 
-/* Article text */
-
-#soro-blog article p,
-#soro-blog .post p,
-#soro-blog .blog-post p,
-#soro-blog .article-card p {
-  margin: 0 18px 16px;
+#soro-blog .soro-blog-article-content p {
+  margin: 0 0 18px !important;
   color: #52636a;
-  font-size: 15px;
-  line-height: 1.55;
+  font-size: 18px !important;
+  line-height: 1.75 !important;
 }
-
-/* Article links and buttons */
-
-#soro-blog article a,
-#soro-blog .post a,
-#soro-blog .blog-post a,
-#soro-blog .article-card a {
-  color: #123b46;
-  font-weight: 700;
-}
-
-#soro-blog article a:hover,
-#soro-blog .post a:hover,
-#soro-blog .blog-post a:hover,
-#soro-blog .article-card a:hover {
-  opacity: 0.75;
-}
-
-/* Tablet and mobile */
 
 @media (max-width: 768px) {
   #blog {
-    padding: 55px 18px;
-  }
-
-  .blogHeader {
-    margin-bottom: 26px;
+    padding: 50px 18px;
   }
 
   .blogHeader h2 {
@@ -704,95 +631,15 @@ footer{
     font-size: 16px;
   }
 
-  .blogWrapper {
-    padding: 0;
+  #soro-blog .soro-blog-article-content {
+    padding: 24px 20px !important;
   }
 
-  #soro-blog {
-    grid-template-columns: 1fr;
-    gap: 18px;
+  #soro-blog .soro-blog-article-content h2 {
+    font-size: 25px !important;
   }
 
-  #soro-blog article img,
-  #soro-blog .post img,
-  #soro-blog .blog-post img,
-  #soro-blog .article-card img {
-    height: 190px;
-    max-height: 190px;
+  #soro-blog .soro-blog-article-content p {
+    font-size: 16px !important;
   }
 }
-/* Force Soro articles into two columns */
-/* Restore each Soro article as one complete card */
-
-#soro-blog,
-#soro-blog > div {
-  width: 100% !important;
-  max-width: 1000px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-#soro-blog > div {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  align-items: stretch !important;
-  justify-content: center !important;
-  gap: 24px !important;
-}
-
-/* Treat each article link/card as one item */
-
-#soro-blog > div > a,
-#soro-blog > div > article {
-  display: block !important;
-  flex: 0 1 calc(50% - 12px) !important;
-  width: calc(50% - 12px) !important;
-  max-width: 460px !important;
-  min-width: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  background: #ffffff !important;
-  border: 1px solid #dce5e7 !important;
-  border-radius: 16px !important;
-  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08) !important;
-}
-
-/* Keep everything inside each card aligned normally */
-
-#soro-blog > div > a *,
-#soro-blog > div > article * {
-  box-sizing: border-box !important;
-}
-
-#soro-blog > div > a img,
-#soro-blog > div > article img {
-  display: block !important;
-  width: 100% !important;
-  height: 190px !important;
-  max-height: 190px !important;
-  object-fit: cover !important;
-  margin: 0 !important;
-}
-
-#soro-blog > div > a h1,
-#soro-blog > div > a h2,
-#soro-blog > div > a h3,
-#soro-blog > div > article h1,
-#soro-blog > div > article h2,
-#soro-blog > div > article h3 {
-  width: auto !important;
-  margin: 18px 18px 10px !important;
-  font-size: 21px !important;
-  line-height: 1.3 !important;
-}
-
-#soro-blog > div > a p,
-#soro-blog > div > article p {
-  width: auto !important;
-  margin: 0 18px 18px !important;
-  font-size: 15px !important;
-  line-height: 1.5 !important;
-}
-
-/* Mobile */
