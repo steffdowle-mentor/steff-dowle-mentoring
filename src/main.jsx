@@ -285,12 +285,24 @@ to rebuild confidence, motivation, routine and positive future direction.
     </p>
   </div>
 </section>
-  <section id="blog" className="section light">
-  <p className="eyebrow dark">Blog</p>
+ <section id="blog" className="section light">
+  <div className="blogHeader">
 
-  <h2>Latest articles.</h2>
+    <p className="eyebrow dark">PATHWAY INSIGHTS</p>
 
-  <div id="soro-blog"></div>
+    <h2>Advice, Guidance & Support</h2>
+
+    <p className="blogIntro">
+      Practical advice for parents, carers and young people covering
+      confidence, behaviour, school attendance, emotional wellbeing and
+      building brighter futures.
+    </p>
+
+  </div>
+
+  <div className="blogWrapper">
+      <div id="soro-blog"></div>
+  </div>
 </section>
  <section id="contact" className="section">
   <p className="eyebrow dark">Contact</p>
