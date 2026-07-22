@@ -722,11 +722,87 @@ footer{
   }
 }
 /* Force Soro articles into two columns */
+/* Restore each Soro article as one complete card */
 
-#soro-blog > div,
-#soro-blog > div > div {
-  display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 24px !important;
+#soro-blog,
+#soro-blog > div {
   width: 100% !important;
+  max-width: 1000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
+
+#soro-blog > div {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  gap: 24px !important;
+}
+
+/* Treat each article link/card as one item */
+
+#soro-blog > div > a,
+#soro-blog > div > article {
+  display: block !important;
+  flex: 0 1 calc(50% - 12px) !important;
+  width: calc(50% - 12px) !important;
+  max-width: 460px !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #ffffff !important;
+  border: 1px solid #dce5e7 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08) !important;
+}
+
+/* Keep everything inside each card aligned normally */
+
+#soro-blog > div > a *,
+#soro-blog > div > article * {
+  box-sizing: border-box !important;
+}
+
+#soro-blog > div > a img,
+#soro-blog > div > article img {
+  display: block !important;
+  width: 100% !important;
+  height: 190px !important;
+  max-height: 190px !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+}
+
+#soro-blog > div > a h1,
+#soro-blog > div > a h2,
+#soro-blog > div > a h3,
+#soro-blog > div > article h1,
+#soro-blog > div > article h2,
+#soro-blog > div > article h3 {
+  width: auto !important;
+  margin: 18px 18px 10px !important;
+  font-size: 21px !important;
+  line-height: 1.3 !important;
+}
+
+#soro-blog > div > a p,
+#soro-blog > div > article p {
+  width: auto !important;
+  margin: 0 18px 18px !important;
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  #soro-blog > div > a,
+  #soro-blog > div > article {
+    flex-basis: 100% !important;
+    width: 100% !important;
+    max-width: 520px !important;
+  }
+}
+
