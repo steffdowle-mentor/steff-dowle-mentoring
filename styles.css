@@ -806,3 +806,43 @@ footer{
   }
 }
 
+/* Two-column Soro blog layout */
+
+#soro-blog ul,
+#soro-blog .posts,
+#soro-blog .articles,
+#soro-blog .blog-list,
+#soro-blog .soro-posts {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* Each complete post becomes one grid card */
+
+#soro-blog li,
+#soro-blog .post,
+#soro-blog .article,
+#soro-blog .blog-item,
+#soro-blog .soro-post {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  #soro-blog ul,
+  #soro-blog .posts,
+  #soro-blog .articles,
+  #soro-blog .blog-list,
+  #soro-blog .soro-posts {
+    grid-template-columns: 1fr !important;
+  }
+}
