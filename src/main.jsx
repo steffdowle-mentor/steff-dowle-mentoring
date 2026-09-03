@@ -109,7 +109,7 @@ function App() {
   <div className="teamGrid">
 
     <div className="teamCard">
-      <img src="/Beth.jpeg" alt="Beth" />
+      <img src="/Beth.jpg" alt="Beth" />
       <div className="teamCardContent">
         <h3>Beth</h3>
         <h4>Mentor</h4>
@@ -137,7 +137,7 @@ function App() {
     </div>
 
     <div className="teamCard">
-      <img src="/mark.jpeg.jpeg" alt="Mark O'Brien" />
+      <img src="/mark.jpg.jpeg" alt="Mark O'Brien" />
       <div className="teamCardContent">
         <h3>Mark O'Brien</h3>
         <h4>Mentor</h4>
@@ -160,7 +160,7 @@ function App() {
     </div>
 
     <div className="teamCard">
-      <img src="/Neil.jpeg" alt="Neil Osborne" />
+      <img src="/Neil.jpg" alt="Neil Osborne" />
       <div className="teamCardContent">
         <h3>Neil Osborne</h3>
         <h4>Mentor</h4>
