@@ -696,26 +696,31 @@ footer{
   margin-bottom: 45px !important;
 }
 
-/* Steff - Founder profile */
+/* ---------- STEFF / FOUNDER ---------- */
 
 .teamFounder {
   display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 45px;
+  grid-template-columns: 40% 1fr;
+  gap: 35px;
   align-items: center;
   background: #f8fafc;
   border: 1px solid #dbe3ea;
-  border-radius: 24px;
-  padding: 35px;
-  margin: 40px 0 55px;
+  border-radius: 20px;
+  padding: 18px;
+  margin: 40px 0 30px;
 }
 
 .teamFounder img {
   width: 100%;
-  height: 380px;
+  height: 330px;
   object-fit: cover;
-  object-position: center top;
-  border-radius: 18px;
+  object-position: center 30%;
+  border-radius: 14px;
+  display: block;
+}
+
+.teamFounderContent {
+  padding: 20px;
 }
 
 .teamFounderContent h3 {
@@ -725,125 +730,168 @@ footer{
 
 .teamFounderContent h4 {
   font-size: 18px;
-  color: #52636a;
+  color: #174b78;
   margin-bottom: 22px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .teamFounderContent p {
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 17px;
+  line-height: 1.65;
 }
 
-/* Beth, Mark and Neil */
+
+/* ---------- STAFF CARDS ---------- */
 
 .teamGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
   align-items: stretch;
 }
 
 .teamCard {
   background: #f8fafc;
   border: 1px solid #dbe3ea;
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .teamCard:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
 }
+
+
+/* General image area */
 
 .teamCard img {
   width: 100%;
-  height: 440px;
-  object-fit: cover;
-  object-position: center center;
+  height: 300px;
   display: block;
 }
 
-/* Individual portrait positioning */
+
+/* BETH */
 
 .teamCard:nth-child(1) img {
-  object-position: center 35%;
+  object-fit: cover;
+  object-position: center 38%;
 }
 
+
+/* MARK */
+/* contain prevents the top of Mark's head being cut off */
+
 .teamCard:nth-child(2) img {
+  object-fit: contain;
+  object-position: center center;
+  background: #e9eef2;
+}
+
+
+/* NEIL */
+
+.teamCard:nth-child(3) img {
+  object-fit: cover;
   object-position: center 30%;
 }
 
-.teamCard:nth-child(3) img {
-  object-position: center 25%;
-}
+
+/* ---------- CARD TEXT ---------- */
 
 .teamCardContent {
-  padding: 28px;
+  padding: 24px;
   flex: 1;
 }
 
 .teamCardContent h3 {
-  font-size: 27px;
+  font-size: 25px;
   margin-bottom: 2px;
 }
 
 .teamCardContent h4 {
-  font-size: 17px;
-  color: #52636a;
+  font-size: 16px;
+  color: #174b78;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .teamCardContent p {
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.65;
   margin-bottom: 16px;
 }
 
-/* Tablet */
+
+/* ---------- TABLET ---------- */
 
 @media (max-width: 1050px) {
+
+  .teamFounder {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .teamCard img {
+    height: 420px;
+  }
+
+  .teamCard:nth-child(2) img {
+    object-fit: contain;
+  }
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+  .teamSection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .teamFounder {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .teamFounder img {
+    height: 360px;
+  }
+
+  .teamFounderContent {
+    padding: 10px;
+  }
+
+  .teamFounderContent h3 {
+    font-size: 27px;
+  }
+
   .teamGrid {
     grid-template-columns: 1fr;
   }
 
-  .teamCard {
-    max-width: 700px;
-    margin: 0 auto;
-    width: 100%;
-  }
-
   .teamCard img {
-    height: 500px;
-  }
-}
-
-/* Mobile */
-
-@media (max-width: 700px) {
-  .teamFounder {
-    grid-template-columns: 1fr;
-    padding: 22px;
-    gap: 25px;
+    height: 360px;
   }
 
-  .teamFounder img {
-    height: 420px;
-  }
-
-  .teamFounderContent h3 {
-    font-size: 28px;
-  }
-
-  .teamCard img {
-    height: 420px;
+  .teamCard:nth-child(2) img {
+    object-fit: contain;
+    background: #e9eef2;
   }
 
   .teamCardContent {
-    padding: 24px;
+    padding: 22px;
   }
 }
