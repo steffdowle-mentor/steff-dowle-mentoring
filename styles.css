@@ -685,3 +685,151 @@ footer{
     height: 190px !important;
   }
 }
+/* ---------- PATHWAY TEAM ---------- */
+
+.teamSection {
+  background: #ffffff;
+}
+
+.teamIntro {
+  max-width: 950px;
+  margin-bottom: 45px !important;
+}
+
+/* Steff - Founder profile */
+
+.teamFounder {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 45px;
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #dbe3ea;
+  border-radius: 24px;
+  padding: 35px;
+  margin: 40px 0 55px;
+}
+
+.teamFounder img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 18px;
+}
+
+.teamFounderContent h3 {
+  font-size: 32px;
+  margin-bottom: 2px;
+}
+
+.teamFounderContent h4 {
+  font-size: 18px;
+  color: #52636a;
+  margin-bottom: 22px;
+  font-weight: 600;
+}
+
+.teamFounderContent p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Beth, Mark and Neil */
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: stretch;
+}
+
+.teamCard {
+  background: #f8fafc;
+  border: 1px solid #dbe3ea;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teamCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.teamCard img {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.teamCardContent {
+  padding: 28px;
+  flex: 1;
+}
+
+.teamCardContent h3 {
+  font-size: 27px;
+  margin-bottom: 2px;
+}
+
+.teamCardContent h4 {
+  font-size: 17px;
+  color: #52636a;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.teamCardContent p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+/* Tablet */
+
+@media (max-width: 1050px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .teamCard {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .teamCard img {
+    height: 500px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .teamFounder {
+    grid-template-columns: 1fr;
+    padding: 22px;
+    gap: 25px;
+  }
+
+  .teamFounder img {
+    height: 420px;
+  }
+
+  .teamFounderContent h3 {
+    font-size: 28px;
+  }
+
+  .teamCard img {
+    height: 420px;
+  }
+
+  .teamCardContent {
+    padding: 24px;
+  }
+}
