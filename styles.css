@@ -761,10 +761,24 @@ footer{
 
 .teamCard img {
   width: 100%;
-  height: 390px;
+  height: 440px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   display: block;
+}
+
+/* Individual portrait positioning */
+
+.teamCard:nth-child(1) img {
+  object-position: center 35%;
+}
+
+.teamCard:nth-child(2) img {
+  object-position: center 30%;
+}
+
+.teamCard:nth-child(3) img {
+  object-position: center 25%;
 }
 
 .teamCardContent {
