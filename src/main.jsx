@@ -48,12 +48,12 @@ function App() {
 
         <section className="heroContent">
           <div>
-            <p className="eyebrow dark">Private mentoring for young people</p>
+            <p className="eyebrow dark">Private mentoring for young people and adults</p>
 
-            <h1>Calm, experienced support for young people who are struggling.</h1>
+            <h1>Calm, experienced support for young people and adults who are struggling.</h1>
 
             <p className="intro">
-              One-to-one mentoring for young people experiencing challenges with school,
+              One-to-one mentoring for young people and adults experiencing challenges with school,
               behaviour, confidence, anxiety, motivation or emotional regulation.
             </p>
 
@@ -82,7 +82,7 @@ function App() {
   <p className="teamIntro">
     Our team brings together extensive experience from education, counselling,
     coaching, the military, public service, fitness and personal development.
-    What connects us is a shared commitment to helping young people feel heard,
+    What connects us is a shared commitment to helping young people and adults feel heard,
     supported and able to move forward with confidence.
   </p>
 
@@ -95,7 +95,7 @@ function App() {
 
       <p>
         Steff is a former Head of School with over 20 years of experience
-        supporting young people with behavioural, emotional and mental health needs.
+        supporting young people and adults with behavioural, emotional and mental health needs.
       </p>
 
       <p>
