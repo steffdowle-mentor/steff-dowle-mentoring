@@ -200,12 +200,12 @@ function App() {
   <div class="mentor-container">
     <h2>What Does a Mentor Do?</h2>
     <p>
-      A mentor provides guidance, encouragement, and practical support to help young people overcome challenges and reach their potential.
+      A mentor provides guidance, encouragement, and practical support to help young people and adults overcome challenges and reach their potential.
       Through regular one-to-one sessions, a mentor can help build confidence, improve motivation, develop positive routines, manage behaviour,
       strengthen communication skills, and support emotional wellbeing.
     </p>
     <p>
-      Mentoring offers a trusted relationship where young people feel listened to, understood, and empowered to make positive choices for their future.
+      Mentoring offers a trusted relationship where young people and adults feel listened to, understood, and empowered to make positive choices for their future.
     </p>
   </div>
 
@@ -256,7 +256,7 @@ function App() {
 
             <div className="card">
               <h3>Confidence & motivation</h3>
-              <p>Helping young people build self-belief, personal responsibility, resilience and positive direction.</p>
+              <p>Helping young people and adults build self-belief, personal responsibility, resilience and positive direction.</p>
             </div>
 
             <div className="card">
@@ -266,7 +266,7 @@ function App() {
 
             <div className="card">
               <h3>Behaviour support</h3>
-              <p>Helping young people understand choices, consequences, triggers and better ways to respond.</p>
+              <p>Helping young people and adults understand choices, consequences, triggers and better ways to respond.</p>
             </div>
 <div className="card">
   <h3>Support for Young People who are NEET</h3>
@@ -325,7 +325,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
           <p>
             Mentoring is delivered with a strong safeguarding mindset, clear professional boundaries
-            and a commitment to the welfare, voice and needs of the young person.
+            and a commitment to the welfare, voice and needs of the young person or adult.
           </p>
 
           <div className="grid">
@@ -341,8 +341,8 @@ to rebuild confidence, motivation, routine and positive future direction.
   </p>
 </div>
             <div className="card">
-              <h3>Young person centred</h3>
-              <p>Support that listens to the voice of the young person and understands behaviour as communication.</p>
+              <h3>Person centred</h3>
+              <p>Support that listens to the voice of the person and understands behaviour as communication.</p>
             </div>
 
             <div className="card">
@@ -354,7 +354,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
   <p className="eyebrow dark">Areas Served</p>
 
-  <h2>Supporting families and young people across Kent and the South East.</h2>
+  <h2>Supporting families, young people and adults across Kent and the South East.</h2>
 
 <div className="card">
   <h3>Areas Served</h3>
