@@ -137,9 +137,9 @@ function App() {
     </div>
 
     <div className="teamCard">
-      <img src="/mark.jpg.jpeg" alt="Mark O'Brien" />
+      <img src="/mark.jpg.jpeg" alt="Mark" />
       <div className="teamCardContent">
-        <h3>Mark O'Brien</h3>
+        <h3>Mark</h3>
         <h4>Mentor</h4>
 
         <p>
@@ -160,9 +160,9 @@ function App() {
     </div>
 
     <div className="teamCard">
-      <img src="/Neil.jpg" alt="Neil Osborne" />
+      <img src="/Neil.jpg" alt="Neil" />
       <div className="teamCardContent">
-        <h3>Neil Osborne</h3>
+        <h3>Neil</h3>
         <h4>Mentor</h4>
 
         <p>
