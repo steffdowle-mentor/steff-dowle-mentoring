@@ -86,7 +86,7 @@ function App() {
   <p className="teamIntro">
     Our team brings together extensive experience from education, counselling,
     coaching, the military, public service, fitness and personal development.
-    What connects us is a shared commitment to helping young people and adults feel heard,
+    What connects us is a shared commitment to helping children, young people and adults feel heard,
     supported and able to move forward with confidence.
   </p>
 
