@@ -48,7 +48,7 @@ function App() {
 
         <section className="heroContent">
           <div>
-            <p className="eyebrow dark">Private mentoring for young people and adults</p>
+            <p className="eyebrow dark"><h1>Youth Mentoring in Kent & Online</h1></p>
 
             <h1>Calm, experienced support for young people and adults who are struggling.</h1>
 
