@@ -449,7 +449,12 @@ to rebuild confidence, motivation, routine and positive future direction.
 </main>
 
 <footer>
-  <p>© {new Date().getFullYear()} Steff Dowle Mentoring. Private mentoring for young people and families.</p>
+  <p>© {new Date().getFullYear()} <footer>
+  <p>
+    © {new Date().getFullYear()} Pathway Youth Mentoring.
+    Professional youth mentoring across Kent and online throughout the UK.
+  </p>
+</footer>.</p>
 </footer>
 
 </div>
