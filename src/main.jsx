@@ -50,7 +50,12 @@ function App() {
           <div>
             <p className="eyebrow dark"><h1>Youth Mentoring in Kent & Online</h1></p>
 
-            <h1>Calm, experienced support for young people and adults who are struggling.</h1>
+            <h1><p className="intro">
+  Professional one-to-one mentoring for young people and young adults across Kent
+  and online throughout the UK. Supporting school attendance, SEMH, SEN, behaviour,
+  confidence, motivation, emotional wellbeing, NEET young people and preparation
+  for adulthood.
+</p></h1>
 
             <p className="intro">
               One-to-one mentoring for young people and adults experiencing challenges with school,
