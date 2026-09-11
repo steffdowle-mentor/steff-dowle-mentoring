@@ -51,7 +51,7 @@ function App() {
             <p className="eyebrow dark"><h1>Youth Mentoring in Kent & Online</h1></p>
 
             <h1><p className="intro">
-  Professional one-to-one mentoring for young people and young adults across Kent
+  Professional one-to-one mentoring for children, young people and young adults across Kent
   and online throughout the UK. Supporting school attendance, SEMH, SEN, behaviour,
   confidence, motivation, emotional wellbeing, NEET young people and preparation
   for adulthood.
@@ -99,7 +99,7 @@ function App() {
 
       <p>
         Steff is a former Head of School with over 20 years of experience
-        supporting young people and adults with behavioural, emotional and mental health needs.
+        supporting children, young people and adults with behavioural, emotional and mental health needs.
       </p>
 
       <p>
@@ -204,12 +204,12 @@ function App() {
   <div class="mentor-container">
     <h2>What Does a Mentor Do?</h2>
     <p>
-      A mentor provides guidance, encouragement, and practical support to help young people and adults overcome challenges and reach their potential.
+      A mentor provides guidance, encouragement, and practical support to help children, young people and adults overcome challenges and reach their potential.
       Through regular one-to-one sessions, a mentor can help build confidence, improve motivation, develop positive routines, manage behaviour,
       strengthen communication skills, and support emotional wellbeing.
     </p>
     <p>
-      Mentoring offers a trusted relationship where young people and adults feel listened to, understood, and empowered to make positive choices for their future.
+      Mentoring offers a trusted relationship where children, young people and adults feel listened to, understood, and empowered to make positive choices for their future.
     </p>
   </div>
 
@@ -265,7 +265,7 @@ function App() {
 
             <div className="card">
               <h3>Parent guidance</h3>
-              <p>Working with parents to understand what is happening and identify practical next steps.</p>
+              <p>Working with parents to understand what is happening and identify practical next steps for their child.</p>
             </div>
 
             <div className="card">
@@ -273,10 +273,10 @@ function App() {
               <p>Helping young people and adults understand choices, consequences, triggers and better ways to respond.</p>
             </div>
 <div className="card">
-  <h3>Support for Young People who are NEET</h3>
+  <h3>Support for Children who are NEET</h3>
 
   <p>
-    Helping young people who are NEET (Not in Education, Employment or Training)
+    Helping children who are NEET (Not in Education, Employment or Training)
 to rebuild confidence, motivation, routine and positive future direction.
   </p>
 </div>
@@ -297,7 +297,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
           <p>
             Our mentoring is relationship-led but purposeful. We aim to build trust first, then help
-            the young person understand their choices, recognise their strengths and develop better
+            the young person/child understand their choices, recognise their strengths and develop better
             ways to manage challenge.
           </p>
 
@@ -358,7 +358,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
   <p className="eyebrow dark">Areas Served</p>
 
-  <h2>Supporting families, young people and adults across Kent and the South East.</h2>
+  <h2>Supporting families, children, young people and adults across Kent and the South East.</h2>
 
 <div className="card">
   <h3>Areas Served</h3>
@@ -381,7 +381,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
   <div className="card">
     <p>
-      Support is tailored to the individual needs of each young person and family.
+      Support is tailored to the individual needs of each child, young person, adult and family.
     </p>
 
     <p>
