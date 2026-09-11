@@ -58,8 +58,7 @@ function App() {
 </p></h1>
 
             <p className="intro">
-              One-to-one mentoring for young people and adults experiencing challenges with school,
-              behaviour, confidence, anxiety, motivation or emotional regulation.
+              
             </p>
 
             <div className="heroButtons">
