@@ -52,8 +52,8 @@ function App() {
 
             <h1><p className="intro">
   Professional one-to-one mentoring for children, young people and young adults across Kent
-  and online throughout the UK. Supporting school attendance, SEMH, SEN, behaviour,
-  confidence, motivation, emotional wellbeing, NEET young people and preparation
+  and online throughout the UK. Supporting school attendance, SEMH, SEN, NEET, behaviour,
+  confidence, motivation, emotional wellbeing and preparation
   for adulthood.
 </p></h1>
 
