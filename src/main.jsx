@@ -200,7 +200,7 @@ function App() {
   <img src="/Jenny.png" alt="Jenny" />
   <div className="teamCardContent">
     <h3>Jenny</h3>
-    <h4>Mentor & Qualified Counsellor</h4>
+    <h4>Mentor</h4>
 
     <p>
       Jenny brings extensive experience supporting people through a range of
