@@ -196,7 +196,48 @@ function App() {
         </p>
       </div>
     </div>
+<div className="teamCard">
+  <img src="/Jenny.png" alt="Jenny" />
+  <div className="teamCardContent">
+    <h3>Jenny</h3>
+    <h4>Mentor & Qualified Counsellor</h4>
 
+    <p>
+      Jenny brings extensive experience supporting people through a range of
+      challenges, having worked across education, youth justice and services
+      supporting individuals with additional needs.
+    </p>
+
+    <p>
+      As a qualified counsellor, Jenny takes a warm, person-centred approach,
+      placing trust, empathy and genuine connection at the heart of her work.
+      She is committed to creating a safe, professional and non-judgemental
+      space where people feel heard and understood, helping them explore
+      challenges, build confidence and work towards positive change.
+    </p>
+
+    <p>
+      Throughout her career, Jenny has advocated for individuals who may face
+      barriers to education, engagement or accessing the right support. She
+      believes in looking beyond behaviour to understand the person and their
+      circumstances, helping them recognise their strengths and find a way
+      forward that feels right for them.
+    </p>
+
+    <p>
+      Jenny has a particular interest in neurodiversity and supporting
+      individuals with additional needs. Alongside her mentoring and counselling
+      work, she founded Spectrum of Support, which provides ADHD coaching,
+      bibliotherapy and disability awareness.
+    </p>
+
+    <p>
+      Jenny is passionate about helping people recognise their potential,
+      develop their confidence and feel supported as they navigate life's
+      challenges and opportunities.
+    </p>
+  </div>
+</div>
   </div>
 
 </section>      
