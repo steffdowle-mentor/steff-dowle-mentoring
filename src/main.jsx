@@ -202,40 +202,25 @@ function App() {
     <h3>Jenny</h3>
     <h4>Mentor</h4>
 
-    <p>
-      Jenny brings extensive experience supporting people through a range of
-      challenges, having worked across education, youth justice and services
-      supporting individuals with additional needs.
-    </p>
+   <p>
+  Jenny brings extensive experience supporting people across education,
+  youth justice and services for individuals with additional needs. As a
+  qualified counsellor, she takes a warm, person-centred approach, placing
+  trust, empathy and genuine connection at the heart of her work.
+</p>
 
-    <p>
-      As a qualified counsellor, Jenny takes a warm, person-centred approach,
-      placing trust, empathy and genuine connection at the heart of her work.
-      She is committed to creating a safe, professional and non-judgemental
-      space where people feel heard and understood, helping them explore
-      challenges, build confidence and work towards positive change.
-    </p>
+<p>
+  Jenny is passionate about looking beyond behaviour to understand the
+  individual and the circumstances they face. She supports people to
+  recognise their strengths, build confidence, overcome barriers and work
+  towards positive change.
+</p>
 
-    <p>
-      Throughout her career, Jenny has advocated for individuals who may face
-      barriers to education, engagement or accessing the right support. She
-      believes in looking beyond behaviour to understand the person and their
-      circumstances, helping them recognise their strengths and find a way
-      forward that feels right for them.
-    </p>
-
-    <p>
-      Jenny has a particular interest in neurodiversity and supporting
-      individuals with additional needs. Alongside her mentoring and counselling
-      work, she founded Spectrum of Support, which provides ADHD coaching,
-      bibliotherapy and disability awareness.
-    </p>
-
-    <p>
-      Jenny is passionate about helping people recognise their potential,
-      develop their confidence and feel supported as they navigate life's
-      challenges and opportunities.
-    </p>
+<p>
+  Jenny has a particular interest in neurodiversity and additional needs.
+  Alongside her mentoring and counselling work, she founded Spectrum of
+  Support, providing ADHD coaching, bibliotherapy and disability awareness.
+</p>
   </div>
 </div>
   </div>
