@@ -229,32 +229,36 @@ function App() {
     <h3>Hollie</h3>
     <h4>Mentor</h4>
 
-    <p>
-      Hollie brings five years of experience as a Teaching
-      Assistant, including three years providing one-to-one
-      support, and now works as a Higher Level Teaching
-      Assistant (HLTA) in a primary school.
-    </p>
+    
+<p>
+  Hollie brings five years of experience as a Teaching
+  Assistant, including three years providing one-to-one
+  support, and now works as a Higher Level Teaching
+  Assistant (HLTA) in a primary school.
+</p>
 
-    <p>
-      Passionate about helping children and young people
-      reach their full potential, Hollie focuses on
-      building confidence, independence, emotional
-      wellbeing and academic success.
-    </p>
+<p>
+  Specialising in online mentoring, Hollie provides
+  personalised support to help children and young people
+  develop confidence, independence, emotional wellbeing
+  and academic success. Her approachable and supportive
+  style helps young people feel comfortable, understood
+  and encouraged to reach their full potential.
+</p>
 
-    <p>
-      As a parent of three teenagers, Hollie understands
-      the challenges young people can face throughout
-      secondary education and university. She offers
-      practical strategies, encouragement and
-      compassionate support.
-    </p>
+<p>
+  As a parent of three teenagers, Hollie understands
+  the challenges young people can face throughout
+  secondary education and university. She offers
+  practical strategies, encouragement and
+  compassionate support.
+</p>
 
-    <p>
-      Outside work, Hollie enjoys the gym and taking
-      long walks with her much-loved dog.
-    </p>
+<p>
+  Outside work, Hollie enjoys the gym and taking
+  long walks with her much-loved dog.
+</p>
+
   </div>
 </div>
 
