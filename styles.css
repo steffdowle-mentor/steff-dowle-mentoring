@@ -879,3 +879,44 @@ footer{
     padding: 20px;
   }
 }
+
+/* PATHWAY - COMPACT BLOG ARTICLES */
+
+#soro-blog .soro-blog-article {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 16px !important;
+  margin: 8px 0 !important;
+  padding: 12px !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  min-height: 70px !important;
+}
+
+#soro-blog .soro-blog-article-image {
+  width: 65px !important;
+  height: 65px !important;
+  max-height: 65px !important;
+  object-fit: cover !important;
+  flex-shrink: 0 !important;
+  border-radius: 8px !important;
+}
+
+#soro-blog .soro-blog-article-content {
+  flex: 1 !important;
+  width: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#soro-blog .soro-blog-article-content h2,
+#soro-blog .soro-blog-article-content h3 {
+  font-size: 17px !important;
+  line-height: 1.3 !important;
+  margin: 0 0 4px !important;
+}
+
+#soro-blog .soro-blog-article-content p {
+  display: none !important;
+}
