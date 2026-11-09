@@ -1156,3 +1156,9 @@ footer{
 #soro-blog .soro-blog-list .soro-blog-card-excerpt {
   display: none !important;
 }
+
+/* Hollie - adjust photograph positioning */
+.teamCard img[alt="Hollie"] {
+  object-fit: cover;
+  object-position: center 25%;
+}
