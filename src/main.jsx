@@ -1,10 +1,13 @@
 import logo from './logo.png.png'
+import AdultMentoringPage from './AdultMentoring'
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom/client'
 import '../styles.css'
 function App() {
 
   useEffect(() => {
+    if (window.location.pathname.split('/').filter(Boolean).join('/') === 'adult-mentoring') return
+
     const script = document.createElement('script')
     script.src = 'https://app.trysoro.com/api/embed/b553c465-9609-4d47-87c9-ecd1c0561729'
     script.defer = true
@@ -14,6 +17,10 @@ function App() {
       document.body.removeChild(script)
     }
   }, [])
+
+  if (window.location.pathname.split('/').filter(Boolean).join('/') === 'adult-mentoring') {
+    return <AdultMentoringPage />
+  }
 
   return (
     <div className="site">
@@ -36,6 +43,7 @@ function App() {
 
   <div className="navLinks">
     <a href="#about">About</a>
+    <a href="/adult-mentoring/">Adult Mentoring</a>
     <a href="#support">Support</a>
     <a href="#approach">Approach</a>
     <a href="#safeguarding">Safeguarding</a>
@@ -64,6 +72,7 @@ function App() {
             <div className="heroButtons">
               <a className="button primary" href="tel:07348235199">Call Steff</a>
               <a className="button secondaryDark" href="mailto:info@youthmentoring.co.uk">Email Enquiry</a>
+              <a className="button secondaryDark" href="/adult-mentoring/">Adult Mentoring</a>
             </div>
           </div>
           <div className="profileCard">
@@ -76,6 +85,22 @@ function App() {
       </header>
 
       <main>
+        <section className="section serviceChooser" aria-labelledby="serviceChooserTitle">
+          <p className="eyebrow dark">Pathway Mentoring</p>
+          <h2 id="serviceChooserTitle">Support for young people and adults.</h2>
+          <div className="serviceChooserGrid">
+            <article className="card">
+              <h3>Youth mentoring</h3>
+              <p>One-to-one mentoring for children, young people, families and professionals across Kent and online.</p>
+              <a href="#support">Explore youth mentoring →</a>
+            </article>
+            <article className="card">
+              <h3>Adult mentoring</h3>
+              <p>Practical support with routines, confidence, motivation and accountability across South East England and online.</p>
+              <a href="/adult-mentoring/">Explore adult mentoring →</a>
+            </article>
+          </div>
+        </section>
        
    <section id="team" className="section teamSection">
 
@@ -493,12 +518,22 @@ to rebuild confidence, motivation, routine and positive future direction.
       method="POST"
       className="contactForm"
     >
-      <input type="text" name="name" placeholder="Parent / Guardian Name" required />
+      <select
+        name="service"
+        aria-label="Which service are you enquiring about?"
+        defaultValue={new URLSearchParams(window.location.search).get('service') || ''}
+        required
+      >
+        <option value="" disabled>Which service are you enquiring about?</option>
+        <option value="youth">Youth mentoring</option>
+        <option value="adult">Adult mentoring</option>
+      </select>
+      <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Email Address" required />
       <input type="tel" name="phone" placeholder="Phone Number" />
       <textarea
         name="message"
-        placeholder="Please tell me briefly how I may be able to help."
+        placeholder="Please tell us briefly how we may be able to help."
         rows="6"
         required
       ></textarea>

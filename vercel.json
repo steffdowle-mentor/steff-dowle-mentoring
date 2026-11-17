@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/adult-mentoring",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/adult-mentoring/",
+      "destination": "/index.html"
+    }
+  ]
+}
