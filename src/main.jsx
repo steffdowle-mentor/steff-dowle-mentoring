@@ -489,7 +489,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
   <div className="contactBox">
     <form
-      action="https://formsubmit.co/info@pathwaymentoring.co.uk"
+      action="/api/contact"
       method="POST"
       className="contactForm"
     >
