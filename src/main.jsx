@@ -63,7 +63,7 @@ function App() {
 
             <div className="heroButtons">
               <a className="button primary" href="tel:07348235199">Call Steff</a>
-              <a className="button secondaryDark" href="mailto:info@youthmentoring.co.uk">Email Enquiry</a>
+              <a className="button secondaryDark" href="mailto:info@pathwaymentoring.co.uk">Email Enquiry</a>
             </div>
           </div>
           <div className="profileCard">
@@ -489,7 +489,7 @@ to rebuild confidence, motivation, routine and positive future direction.
 
   <div className="contactBox">
     <form
-      action="https://formsubmit.co/info@youthmentoring.co.uk"
+      action="https://formsubmit.co/info@pathwaymentoring.co.uk"
       method="POST"
       className="contactForm"
     >
